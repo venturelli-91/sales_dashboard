@@ -1,16 +1,14 @@
 import React from "react";
-import GenericCard from "../tools/GenericCards";
 import Sidebar from "../tools/Sidebar";
+import MenuBar from "../tools/MenuBar";
+import Footer from "../tools/Footer";
 const Home: React.FC = () => {
 	return (
 		<>
+			<MenuBar />
 			<Sidebar />
-			<GenericCard
-				title="Card 1"
-				description="This is a description"
-			/>
+			<Footer />
 		</>
 	);
 };
-
 export default Home;

@@ -17,7 +17,7 @@ import {
 
 const SidebarComponent: React.FC = () => {
 	return (
-		<div className="flex flex-col items-start justify-start">
+		<div className="flex flex-col items-start justify-start h-screen">
 			<Sidebar
 				aria-label="Default sidebar example"
 				className="w-64">
