@@ -25,7 +25,7 @@ const currencyFormatter = (value: number) =>
 const SalesEvolutionChart: React.FC = () => {
 	return (
 		<div className="bg-white p-4 rounded-lg shadow-md">
-			<h3 className="text-lg font-bold mb-4 text-gray-800">
+			<h3 className="text-lg font-bold mb-4 text-purple-900">
 				Evolução de Vendas por Ano
 			</h3>
 			<ResponsiveContainer
@@ -42,7 +42,7 @@ const SalesEvolutionChart: React.FC = () => {
 					<Bar
 						dataKey="vendas"
 						name="Vendas"
-						fill="#4ade80"
+						fill="#32CD32"
 						radius={[4, 4, 0, 0]}
 					/>
 				</BarChart>

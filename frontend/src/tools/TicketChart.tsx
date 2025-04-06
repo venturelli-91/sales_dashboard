@@ -25,7 +25,7 @@ const currencyFormatter = (value: number) =>
 const TicketChart: React.FC = () => {
 	return (
 		<div className="bg-white p-4 rounded-lg shadow-md">
-			<h3 className="text-lg font-bold mb-4 text-gray-800">
+			<h3 className="text-lg font-bold mb-4 text-purple-900">
 				Ticket Médio por Ano
 			</h3>
 			<ResponsiveContainer
@@ -42,7 +42,7 @@ const TicketChart: React.FC = () => {
 					<Bar
 						dataKey="ticket"
 						name="Ticket Médio"
-						fill="#93c5fd"
+						fill="#FA8072"
 						radius={[4, 4, 0, 0]}
 					/>
 				</BarChart>

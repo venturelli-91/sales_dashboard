@@ -5,7 +5,7 @@ import { FaFilter, FaUser } from "react-icons/fa";
 const MenuBar: React.FC = () => {
 	return (
 		<div
-			className="fixed top-0 left-0 right-0 z-10 py-4"
+			className="absolute top-0 left-0 right-0 z-10 py-4"
 			style={{
 				backgroundColor: "rgb(76, 29, 149)",
 				height: "30vh",
@@ -14,13 +14,15 @@ const MenuBar: React.FC = () => {
 				<div className="flex justify-between items-center mt-4">
 					<div className="flex-1">
 						<span
+							className="text-white font-bold"
 							style={{
-								color: "white",
-								fontSize: "1.5rem",
-								fontWeight: "bold",
+								fontSize: "clamp(1rem, 5vw, 1.5rem)",
+								lineHeight: "1.2",
+								display: "block",
 							}}>
 							Sales Management <br />
-							Visão Geral de Vendas - Abril/2025
+							<span className="hidden md:inline">Visão Geral de Vendas - </span>
+							<span>Abril/2025</span>
 						</span>
 					</div>
 

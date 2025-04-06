@@ -31,7 +31,7 @@ const GenericCard: React.FC<CardProps> = ({
 	return (
 		<div className="w-full">
 			<Card
-				className="w-full hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-gray-500 hover:cursor-pointer"
+				className="w-full hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-gray-500 hover:cursor-pointer border-none"
 				style={{ backgroundColor: bgColor }}>
 				<h5
 					className="text-2xl font-bold tracking-tight transition-all duration-300"

@@ -7,7 +7,7 @@ const GeneralSales: React.FC = () => {
 			<GenericCard
 				title="Visão Geral de Vendas"
 				description="+15% em relação ao mês anterior"
-				bgColor="#4ade80"
+				bgColor="#32CD32"
 				textColor="white"
 				value="R$ 107.080,00"
 				trend="up"
