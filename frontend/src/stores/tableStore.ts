@@ -68,7 +68,6 @@ const initialData: Seller[] = [
 	},
 ];
 
-// Ordena os dados por faturamento, maior para menor
 const sortedData = [...initialData].sort(
 	(a, b) => b.faturamento - a.faturamento
 );

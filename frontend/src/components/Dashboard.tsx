@@ -8,16 +8,18 @@ import Table from "./RankingTable";
 
 const Dashboard: React.FC = () => {
 	return (
-		<div className="container mx-auto px-12 relative z-20 mt-[15vh]">
-			<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-				<div className="w-full">
-					<GeneralSales />
-				</div>
-				<div className="w-full">
-					<AchievementPercentage />
-				</div>
-				<div className="w-full">
-					<MediumTicket />
+		<div className="container mx-auto px-4 md:px-12">
+			<div className="relative z-30 mt-10 sm:mt-0 md:-mt-20 lg:-mt-30">
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+					<div className="w-full">
+						<GeneralSales />
+					</div>
+					<div className="w-full">
+						<AchievementPercentage />
+					</div>
+					<div className="w-full">
+						<MediumTicket />
+					</div>
 				</div>
 			</div>
 
@@ -28,7 +30,7 @@ const Dashboard: React.FC = () => {
 				</div>
 			</div>
 
-			<div className="mt-8">
+			<div className="mt-8 mb-12">
 				<h3 className="text-xl font-bold mb-4 text-purple-900">
 					Ranking de Vendedores
 				</h3>
