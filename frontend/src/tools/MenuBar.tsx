@@ -11,9 +11,7 @@ const MenuBar: React.FC = () => {
 				height: "30vh",
 			}}>
 			<div className="container mx-auto px-4 h-full flex flex-col">
-				{/* Layout principal: título à esquerda, filtros ao centro, ícones à direita */}
 				<div className="flex justify-between items-center mt-4">
-					{/* Título à esquerda */}
 					<div className="flex-1">
 						<span
 							style={{
@@ -26,7 +24,6 @@ const MenuBar: React.FC = () => {
 						</span>
 					</div>
 
-					{/* Filtros no centro */}
 					<div className="flex-1 flex justify-center items-end space-x-4">
 						<div className="flex flex-col">
 							<label
@@ -79,7 +76,6 @@ const MenuBar: React.FC = () => {
 						</button>
 					</div>
 
-					{/* Botão de login à direita */}
 					<div className="flex-1 flex justify-end space-x-4">
 						<button className="bg-white p-2 rounded-full text-purple-900 hover:bg-gray-100">
 							<FaUser size={20} />

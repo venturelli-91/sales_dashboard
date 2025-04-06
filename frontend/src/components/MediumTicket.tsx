@@ -5,11 +5,12 @@ const MediumTicket: React.FC = () => {
 	return (
 		<>
 			<GenericCard
-				title="Ticket Médio"
-				description="Ticket Médio"
+				title="Ticket médio"
+				description="+8% em relação ao mês anterior"
 				bgColor="#f97316"
 				textColor="white"
-				value="R$ 100,00"
+				value="R$ 112,40"
+				trend="up"
 			/>
 		</>
 	);

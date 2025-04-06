@@ -5,11 +5,12 @@ const AchievementPercentage: React.FC = () => {
 	return (
 		<>
 			<GenericCard
-				title="Atingimento de Meta"
-				description="Atingimento de Meta"
+				title="Alcance de meta"
+				description="-5% em relação ao mês anterior"
 				bgColor="#93c5fd"
 				textColor="white"
-				value="80%"
+				value="82,5%"
+				trend="down"
 			/>
 		</>
 	);
