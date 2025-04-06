@@ -1,13 +1,13 @@
 import React from "react";
-import MenuBar from "../tools/MenuBar";
-import Footer from "../tools/Footer";
+import CompleteMenu from "../components/CompleteMenu";
 import Dashboard from "../components/Dashboard";
+import Footer from "../tools/Footer";
 
 const Home: React.FC = () => {
 	return (
 		<>
-			<MenuBar />
-			<main className="min-h-screen bg-gray-50">
+			<CompleteMenu />
+			<main className="min-h-screen bg-gray-50 pt-10">
 				<Dashboard />
 			</main>
 			<Footer />
