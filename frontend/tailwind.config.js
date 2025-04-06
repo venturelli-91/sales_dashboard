@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import flowbitePlugin from "flowbite/plugin";
+
 module.exports = {
 	content: [
 		"./src/**/*.{js,ts,jsx,tsx}",
@@ -6,6 +8,9 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ["Jost", "sans-serif"],
+			},
 			colors: {
 				primary: {
 					50: "#f5f3ff",
@@ -23,5 +28,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require("flowbite/plugin")],
+	plugins: [flowbitePlugin],
 };

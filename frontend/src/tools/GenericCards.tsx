@@ -4,6 +4,7 @@ import { Card } from "flowbite-react";
 interface CardProps {
 	title: string;
 	description: string;
+	value: string;
 	bgColor?: string;
 	textColor?: string;
 }
@@ -11,6 +12,7 @@ interface CardProps {
 const GenericCard: React.FC<CardProps> = ({
 	title,
 	description,
+	value,
 	bgColor = "white",
 	textColor = "black",
 }) => {
@@ -25,7 +27,12 @@ const GenericCard: React.FC<CardProps> = ({
 					{title}
 				</h5>
 				<p
-					className="font-normal transition-all duration-300"
+					className="font-bold text-3xl transition-all duration-300"
+					style={{ color: textColor }}>
+					{value}
+				</p>
+				<p
+					className="font-normal text-md transition-all duration-300"
 					style={{ color: textColor }}>
 					{description}
 				</p>

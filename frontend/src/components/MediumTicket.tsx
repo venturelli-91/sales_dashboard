@@ -9,6 +9,7 @@ const MediumTicket: React.FC = () => {
 				description="Ticket Médio"
 				bgColor="#f97316"
 				textColor="white"
+				value="R$ 100,00"
 			/>
 		</>
 	);

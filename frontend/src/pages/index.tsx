@@ -2,7 +2,6 @@ import React from "react";
 import CompleteMenu from "../components/CompleteMenu";
 import Dashboard from "../components/Dashboard";
 import Footer from "../tools/Footer";
-
 const Home: React.FC = () => {
 	return (
 		<>

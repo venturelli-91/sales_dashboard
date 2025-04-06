@@ -9,6 +9,7 @@ const AchievementPercentage: React.FC = () => {
 				description="Atingimento de Meta"
 				bgColor="#93c5fd"
 				textColor="white"
+				value="80%"
 			/>
 		</>
 	);

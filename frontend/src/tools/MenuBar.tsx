@@ -1,5 +1,6 @@
 import React from "react";
 import { Select } from "flowbite-react";
+import { FaFilter, FaUser } from "react-icons/fa";
 
 const MenuBar: React.FC = () => {
 	return (
@@ -7,24 +8,26 @@ const MenuBar: React.FC = () => {
 			className="fixed top-0 left-0 right-0 z-10 py-4"
 			style={{
 				backgroundColor: "rgb(76, 29, 149)",
-				height: "40vh",
+				height: "30vh",
 			}}>
-			<div className="container mx-auto px-4">
-				<div className="w-full flex flex-col md:flex-row justify-between items-center mb-6">
-					<div>
+			<div className="container mx-auto px-4 h-full flex flex-col">
+				{/* Layout principal: título à esquerda, filtros ao centro, ícones à direita */}
+				<div className="flex justify-between items-center mt-4">
+					{/* Título à esquerda */}
+					<div className="flex-1">
 						<span
 							style={{
 								color: "white",
-								padding: "10px",
 								fontSize: "1.5rem",
 								fontWeight: "bold",
-								marginTop: "30px",
 							}}>
-							Sales Management | Visão Geral de Vendas - Abril/2025
+							Sales Management <br />
+							Visão Geral de Vendas - Abril/2025
 						</span>
 					</div>
 
-					<div className="flex space-x-4 mt-4 md:mt-0">
+					{/* Filtros no centro */}
+					<div className="flex-1 flex justify-center items-end space-x-4">
 						<div className="flex flex-col">
 							<label
 								htmlFor="year"
@@ -34,7 +37,10 @@ const MenuBar: React.FC = () => {
 							<Select
 								id="year"
 								className="w-32"
-								style={{ backgroundColor: "white", color: "rgb(76, 29, 149)" }}>
+								style={{
+									backgroundColor: "white",
+									color: "rgb(76, 29, 149)",
+								}}>
 								<option value="2025">2025</option>
 								<option value="2024">2024</option>
 								<option value="2023">2023</option>
@@ -50,7 +56,10 @@ const MenuBar: React.FC = () => {
 							<Select
 								id="month"
 								className="w-32"
-								style={{ backgroundColor: "white", color: "rgb(76, 29, 149)" }}>
+								style={{
+									backgroundColor: "white",
+									color: "rgb(76, 29, 149)",
+								}}>
 								<option value="4">Abril</option>
 								<option value="3">Março</option>
 								<option value="2">Fevereiro</option>
@@ -65,6 +74,16 @@ const MenuBar: React.FC = () => {
 								<option value="5">Maio</option>
 							</Select>
 						</div>
+						<button className="bg-white p-2 rounded-full text-purple-900 hover:bg-gray-100 h-10 self-end">
+							<FaFilter size={20} />
+						</button>
+					</div>
+
+					{/* Botão de login à direita */}
+					<div className="flex-1 flex justify-end space-x-4">
+						<button className="bg-white p-2 rounded-full text-purple-900 hover:bg-gray-100">
+							<FaUser size={20} />
+						</button>
 					</div>
 				</div>
 			</div>
