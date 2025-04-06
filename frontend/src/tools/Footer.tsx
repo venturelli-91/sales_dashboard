@@ -36,12 +36,12 @@ const Footer = () => {
 					container
 					style={{
 						marginTop: "auto",
-						backgroundColor: "purple",
-						color: "yellow",
+						backgroundColor: "rgb(76, 29, 149)",
+						color: "white",
 					}}>
 					<FooterCopyright
 						href="#"
-						by="Pousada Encanto da Serra"
+						by="Sales Management"
 						year={2025}
 						style={{ color: "white", fontWeight: "bold" }}
 					/>
@@ -51,16 +51,7 @@ const Footer = () => {
 							className="mr-4 mt-2 font-bold">
 							Contato
 						</FooterLink>
-						<FooterLink
-							href="#"
-							className="mr-4 mt-2 font-bold">
-							Localização
-						</FooterLink>
-						<FooterLink
-							href="#"
-							className="mr-4 mt-2 font-bold">
-							Quartos
-						</FooterLink>
+
 						<div className="flex gap-4">
 							<BsLinkedin
 								size={30}

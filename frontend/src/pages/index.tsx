@@ -1,12 +1,15 @@
 import React from "react";
-import Sidebar from "../tools/Sidebar";
 import MenuBar from "../tools/MenuBar";
 import Footer from "../tools/Footer";
+import Dashboard from "../components/Dashboard";
+
 const Home: React.FC = () => {
 	return (
 		<>
 			<MenuBar />
-			<Sidebar />
+			<main className="min-h-screen bg-gray-50">
+				<Dashboard />
+			</main>
 			<Footer />
 		</>
 	);
