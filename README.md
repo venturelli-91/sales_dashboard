@@ -5,10 +5,10 @@ Um dashboard moderno e interativo para gerenciamento de vendas, desenvolvido com
 ## 📸 Preview
 
 <div align="center">
-  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%201.png" alt="Dashboard Preview 1" width="45%" />
-  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%202.png" alt="Dashboard Preview 2" width="45%" />
-  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%203.png" alt="Dashboard Preview 3" width="45%" />
-  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%204.png" alt="Dashboard Preview 4" width="45%" />
+  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%201.png" alt="Dashboard Preview 1" width="400" height="225" />
+  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%202.png" alt="Dashboard Preview 2" width="400" height="225" />
+  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%203.png" alt="Dashboard Preview 3" width="400" height="225" />
+  <img src="https://github.com/venturelli-91/sales_dashboard/raw/main/frontend/public/images/Dashboard%204.png" alt="Dashboard Preview 4" width="400" height="225" />
 </div>
 
 ## 🚀 Funcionalidades
@@ -130,3 +130,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 Aurélio Venturelli
+
