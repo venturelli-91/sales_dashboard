@@ -24,11 +24,9 @@ export const ChartsExportExcel = () => {
 	const exportToExcel = () => {
 		const wb = XLSX.utils.book_new();
 
-		// Adiciona aba de vendas
 		const wsVendas = XLSX.utils.json_to_sheet(salesData);
 		XLSX.utils.book_append_sheet(wb, wsVendas, "Evolução de Vendas");
 
-		// Adiciona aba de ticket médio
 		const wsTicket = XLSX.utils.json_to_sheet(ticketData);
 		XLSX.utils.book_append_sheet(wb, wsTicket, "Ticket Médio");
 

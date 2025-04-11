@@ -1,40 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Sales Management Dashboard
 
-## Getting Started
+Um dashboard moderno e interativo para gerenciamento de vendas, desenvolvido com Next.js, React e TypeScript.
 
-First, run the development server:
+![Dashboard Preview](preview.png)
+
+## 🚀 Funcionalidades
+
+- **Visão Geral de Vendas**
+
+  - Cards informativos com métricas principais
+  - Indicadores de tendência (alta/baixa)
+  - Valores monetários formatados em R$
+
+- **Gráficos Interativos**
+
+  - Evolução de vendas por ano
+  - Ticket médio histórico
+  - Visualizações responsivas
+
+- **Ranking de Vendedores**
+
+  - Tabela ordenada por faturamento
+  - Indicadores de meta percentual
+  - Status visual por desempenho
+
+- **Exportação de Dados**
+  - Exportação para Excel dos dados dos gráficos
+  - Exportação do ranking de vendedores
+  - Múltiplas abas no arquivo Excel
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Frontend**
+  - Next.js 15
+  - React 19
+  - TypeScript
+  - Tailwind CSS
+  - Flowbite React
+  - Recharts
+  - XLSX
+
+## 📦 Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone [url-do-repositorio]
+```
+
+2. Instale as dependências:
+
+```bash
+cd frontend
+npm install
+```
+
+3. Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Acesse o projeto em:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🎨 Estrutura do Projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+```
+frontend/
+├── src/
+│   ├── components/     # Componentes reutilizáveis
+│   ├── tools/         # Utilitários e componentes específicos
+│   ├── stores/        # Gerenciamento de estado
+│   └── pages/         # Páginas da aplicação
+├── public/            # Arquivos estáticos
+└── package.json       # Dependências e scripts
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 Principais Componentes
 
-## Learn More
+- **Dashboard**: Página principal com todos os componentes
+- **GeneralSales**: Card de visão geral de vendas
+- **AchievementPercentage**: Card de alcance de meta
+- **MediumTicket**: Card de ticket médio
+- **SalesEvolutionChart**: Gráfico de evolução de vendas
+- **TicketChart**: Gráfico de ticket médio
+- **RankingTable**: Tabela de ranking de vendedores
+- **ExportExcel**: Componentes de exportação para Excel
 
-To learn more about Next.js, take a look at the following resources:
+## 📊 Dados e Estado
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+O projeto utiliza Zustand para gerenciamento de estado, com foco em:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Dados de vendedores
+- Formatação de valores monetários
+- Cálculo de indicadores de desempenho
 
-## Deploy on Vercel
+## 🎯 Próximos Passos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Adicionar autenticação
+- [ ] Implementar filtros por período
+- [ ] Adicionar mais visualizações de dados
+- [ ] Melhorar responsividade
+- [ ] Adicionar testes automatizados
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para:
+
+1. Abrir issues
+2. Sugerir melhorias
+3. Enviar pull requests
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Autor
+
+[Seu Nome] - [Seu Email]
+
+---
+
+Desenvolvido com ❤️ para facilitar a gestão de vendas
