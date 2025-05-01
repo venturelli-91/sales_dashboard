@@ -1,4 +1,4 @@
-# Sales Management Dashboard
+# Smart Sales Dashboard
 
 Um dashboard moderno e interativo para gerenciamento de vendas, desenvolvido com Next.js, React e TypeScript.
 
